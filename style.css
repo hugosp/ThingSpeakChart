@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* debug 
+debug {
+  border:1px solid red;
+}
+*/
+
+body {
+    background-color: #032538;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    color: #fff;
+    font-size: 8.6vw;
+    font-weight: 200;
+    float: left;
+}
+
+.clear {
+  clear: both;
+}
+
+.timeBtn {
+    background-color: #0e5a7a;
+    border: 1px;
+    color: #fff;
+    width: 31%;
+    max-width: 200px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3vw;
+    font-weight: 200;
+    cursor: pointer;
+    padding: 3px;
+    margin-bottom: 3px;
+}
+
+.container {
+  margin: 10px;
+  width: 100%;
+  overflow: auto;
+}
+
+.tempSide {
+  margin-top: 10px;
+    width: 100%;
+    color: #fff;
+    float: left;
+}
+
+.graphSide {
+    height: 100%;
+    width: 100%;
+    float: left;
+}
+
+.tempNu {
+  padding-bottom: 10px;
+  float: left;
+  width: 12vw;
+}
+
+
+#chartContainer {
+  height: 400px; 
+}
+
+
+h3 {
+  font-weight: 200;
+  font-size: 2.6vw;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 3.5vw;
+}
+
+.red {
+  color: #f75d21;
+}
+
+.green {
+  color: #9ad143;
+}
+
+hr {
+   border-top: 1px solid #0e5a7a;
+   margin-right: 10px;
+}
