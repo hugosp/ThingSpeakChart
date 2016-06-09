@@ -63,6 +63,9 @@ function getSeriesData(index,channel,days) {
                 data: dataFluff
             });
             var ferg = (temperature<20) ? "red" : "green";
+              if(temperature == null) {
+                temperature = 'X';
+            }
             $('.tempContainer').append('<div class="tempNu"><h3>'+ name + '</h3><h1 class="' + ferg + '">' + temperature +'</h1></div>');
             chart.reflow();
         }
